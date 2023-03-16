@@ -1,0 +1,138 @@
+*{
+  font-family: helvetica;
+}
+
+.corpo{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  min-height: 100vh;
+  min-width:100vh;
+  flex-direction: column;
+}
+.container {
+  background-color: #E0FFFF;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height:300px;
+  justify-content:center;
+}
+
+.container-sucess{
+  background-color: aquamarine;
+  width: 500px;
+  height: 300px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  animation: changeBackgroundColor1 15s infinite;
+}
+
+@keyframes changeBackgroundColor1{
+  0%{
+    background-color: aquamarine;
+  }
+  30%{
+    background-color: rgb(119, 238, 64) ;
+  }
+  60%{
+    background-color: rgb(172, 248, 84) ;
+  }
+  80%{
+    background-color: rgb(19, 202, 19) ;
+  }
+  100%{
+    background-color: aquamarine;
+  }
+}
+
+.container-fail{
+  background-color: rgb(250, 129, 98);
+  width:500px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  animation: changeBackgroundColor 15s infinite;
+}
+@keyframes changeBackgroundColor{
+  0%{
+    background-color: rgb(250, 129, 98);
+  }
+  30%{
+    background-color: rgb(236, 50, 50);
+  }
+  60%{
+    background-color: rgb(228, 40, 118);
+  }
+  80%{
+    background-color: rgb(236, 79, 202);
+  }
+  100%{
+    background-color: rgb(250, 129, 98);
+  }
+}
+.guarda-form{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display:center;
+  justify-content: center;
+}
+
+.form{
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#email{
+  background-color:#F5FFFA;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 5px;
+  border:2px solid #ADD8E6;
+  padding:4px;
+  cursor:text;
+}
+
+#senha{
+  background-color:#F5FFFA;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 5px;
+  border:2px solid #ADD8E6;
+  padding:4px;
+  cursor:text;
+}
+
+#botao{
+  background-color:#ADD8E6;
+  border:none;
+  padding:7px;
+  margin:15px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+#botao:hover{
+  background-color:#5996ad;
+}
+
+select {
+  width: 35%;
+  padding: 3px;
+  margin:5px;
+  border:none;
+  background-color:#ADD8E6;
+  cursor:pointer;
+}
+
+img{
+  width:230px;
+}
