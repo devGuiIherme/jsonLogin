@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Guilherme">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <title> Corpo Form </title>
+</head>
+<body class="corpo">
+  <div class="container">
+    <div class="guarda-form">
+      <div class="Titulo">
+        <h1> Login Empresa </h1>
+      </div>
+      
+      <div class="form">
+        <form method="post" action="./confirm.php">
+              <select id="func" name="func">
+                  <option value="usuario"> Usuário </option>
+                  <option value="admin"> Admin. </option>
+              </select> <br>
+          <input type="text" name="email" id="email" placeholder="Insira seu E-mail"><br>
+          <input type="password" name="senha" id="senha" placeholder="Insira senha"><br>
+          <input type="submit" id="botao" class="botao" value="Confirmar">
+        </form>
+      </div>
+    </div>
+  </div>
+</body>

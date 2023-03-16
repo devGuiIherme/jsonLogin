@@ -1,0 +1,1 @@
+[{"login": "eve@gmail.com", "senha": 123, "funcao": "admin"}, {"login": "olho@gmail.com", "senha": 567, "funcao": "usuario"}, {"login": "123@gmail.com", "senha": 321, "funcao": "usuario"}, {"login": "888@gmail.com", "senha": 888, "funcao": "usuario"}, {"login": "admin@gmail.com", "senha": 5656, "funcao": "admin"}]
